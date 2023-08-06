@@ -1,1 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F3F3F3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #4285F4;
+    color: #FFF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.card {
+    width: 80%;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4285F4;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0F47A1;
+}
+
+.inline-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#start-button, .option-button, #back-button, #submit-button, #clear-button {
+    margin: 10px 0;
+}
+
+.highscore-list {
+    padding-left: 30px;
+}
+
+#leaderboard-link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#leaderboard-link:hover {
+    text-decoration: underline;
+}
+
+#leaderboard-card h2 {
+    text-align: center;
+}
